@@ -1,0 +1,15 @@
+---
+info:
+  title: Supervisor
+  description: Development repository for Opscode Cookbook supervisor
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/supervisor
+  x-cortex-tag: supervisor
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: logsearch
+openapi: 3.0.1
+servers:
+- url: "/"
